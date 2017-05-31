@@ -66,8 +66,10 @@ export default {
     showContentState: function() {
       if($("#card_piece").css('margin-top') != "35px") {
         $("#card_piece").css('margin-top', '35px')
+      } else if (window.matchMedia( "(min-width: 961px)" ).matches) {
+        $("#card_piece").css('margin-top', '20vh')
       } else {
-        $("#card_piece").css('margin-top', '30vh')
+        $("#card_piece").css('margin-top', '15vh')
       }
     }
   },
