@@ -175,15 +175,14 @@ export default {
   }
 
   #card_piece {
-    margin-top: 20vh;
+    margin-top: 15vh;
     transition: margin-top 0.75s;
   }
 
-  @media (max-width:961px)  { 
-  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  @media (min-width:961px)  { 
+    /*tablet, landscape iPad, lo-res laptops ands desktops  */
     #card_piece {
-      margin-top: 25vh;
-      transition: margin-top 0.75s;
+      margin-top: 20vh;
     }
   }
 
