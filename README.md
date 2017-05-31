@@ -1,4 +1,4 @@
-# pokeinfo
+# PokéInfo
 
 > An unofficial pokédex made with the PokéAPI and VueJs utilizing Firebase's realtime database as a backend
 
