@@ -1,6 +1,12 @@
 # PokéInfo
+An unofficial pokédex made with the PokéAPI and VueJs utilizing Firebase's realtime database as a backend.  
+I decided to make this in Vue in order for me to learn a more advanced Javascript framework.  
+This application shows you the stats, moves, encounter information and game indices of all the different pokémon.  
 
-> An unofficial pokédex made with the PokéAPI and VueJs utilizing Firebase's realtime database as a backend
+## Screenshots
+Homepage                       |  Pokémon Info Screen              | Pokémon Extra Information
+:-----------------------------:|:---------------------------------:|:-------------------------:
+![PokéInfo homepage](images/home.png) | ![Pokémon information](images/pokemon_info_screen.png) | ![Pokémon extra information](images/pokemon_extra_information.png)
 
 ## Build Setup
 
